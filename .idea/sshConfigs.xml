@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="193.164.149.104" id="9bf322f6-ae07-4ba8-bc56-6488879f6f65" port="22" nameFormat="DESCRIPTIVE" username="bitrix" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="bitwifi.lxc.bitstudio24.ru" id="bce472ad-f7a7-481f-8ee6-87d98f8dd758" port="2008" nameFormat="DESCRIPTIVE" username="bitrix" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.56.102" id="6eaf72fe-8528-4916-a596-9eee8d16c22c" port="22" nameFormat="DESCRIPTIVE" username="bitrix" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

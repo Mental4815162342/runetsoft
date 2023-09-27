@@ -1,0 +1,9 @@
+.ex-table {
+    width: 100%;
+}
+.ex-table td {
+    border: solid 1px;
+}
+.location span {
+    font-weight: 600;
+}
