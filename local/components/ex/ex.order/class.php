@@ -64,11 +64,9 @@ class ExOrder
         $paySystemId = $data['PAYMENT_TYPE'];
         $deliveryId = $data['DELIVERY_TYPE'];
 
-        //dd($data, false);
         $emailUser = \CUser::GetList($by="", $order="", array('=EMAIL' => $_POST["EMAIL"]));
         while($arUser = $emailUser->Fetch())
             $userId = $arUser["ID"];
-        //dd($userId, false);
         if (empty($userId)) {
             /** TODO Регистрация пользователя */
             die();
@@ -80,8 +78,6 @@ class ExOrder
             }
         }
         $sum = self::getSumBasket();
-        //dd($basket, false);
-        //dd($sum, false);
         $fields = [
             'LID' => SITE_ID,
             'PERSON_TYPE_ID' => $personTypeId,
